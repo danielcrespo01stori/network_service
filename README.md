@@ -11,7 +11,8 @@ Ejemplo de implementación:
 ![imagen](https://github.com/danielcrespo01stori/network_service/assets/119959720/08a4bedd-4834-435a-9d7d-7ace4daa59bb)
 
 Importe la libreria en la clase de implementación:
-<img width="284" alt="imagen" src="https://github.com/danielcrespo01stori/network_service/assets/119959720/051837d4-9bd4-43ba-8c8d-07dc057e7d3a">
+
+<img width="284" alt="imagen" src="https://github.com/danielcrespo01stori/network_service/assets/119959720/ec1004c7-7623-4334-ae79-fb8f53bd9b91">
 
 Construya su elemento endPoint con el cual podrá parametrizar su estructura de respuesta tipo decodable, método del request, paquete relativo para la url, parámetros del servicio, cabeceras customizables, token de autorización y api key.
 ![imagen](https://github.com/danielcrespo01stori/network_service/assets/119959720/026fe7f1-5ea2-46f7-b301-e25f079a55cf)
