@@ -12,7 +12,7 @@ public class NetworkService {
     var urlSession: URLSession
     
     
-    init(url: String,
+    public init(url: String,
          urlSession: URLSession) {
         self.baseURL = URL(string: url)
         self.urlSession = urlSession

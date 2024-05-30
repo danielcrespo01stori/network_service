@@ -27,7 +27,7 @@ public enum StatusCodes: Int {
     case fraudTXN = 451
     case systemOutageCodes
     
-    init(from rawValue: Int) {
+    public init(from rawValue: Int) {
         guard !(501...599 ~= rawValue) else {
             self = .systemOutageCodes
             return
@@ -94,7 +94,7 @@ public class ApiNetworkRequest<Response> {
     let authorizationToken: String?
     let apiKey: String?
     
-    init(method: HTTPMethod = .GET,
+    public init(method: HTTPMethod = .GET,
          relativePath: String,
          headers: [String: String]? = nil,
          parameters: [String: Any]?,
